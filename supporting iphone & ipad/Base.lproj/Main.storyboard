@@ -31,7 +31,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Devslopes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uVy-Lx-Yjw">
-                                <rect key="frame" x="157.66666666666666" y="150.66666666666666" width="98.666666666666657" height="29"/>
+                                <rect key="frame" x="140" y="150.66666666666666" width="98.666666666666686" height="29"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -90,16 +90,17 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="uVy-Lx-Yjw" firstAttribute="leading" secondItem="MIb-Wx-IEd" secondAttribute="trailing" constant="10" id="80a-ZZ-cS1"/>
                             <constraint firstItem="MIb-Wx-IEd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="DRx-KF-ywC"/>
                             <constraint firstItem="hek-iP-ewY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ICd-Kg-leG"/>
                             <constraint firstItem="FtZ-71-uQs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MQC-qa-moM"/>
-                            <constraint firstItem="uVy-Lx-Yjw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NMa-hf-ZjO"/>
                             <constraint firstItem="gOZ-bZ-lG8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="PAz-k7-grx"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hek-iP-ewY" secondAttribute="trailing" constant="20" id="VwK-hq-Mkw"/>
                             <constraint firstAttribute="trailing" secondItem="gOZ-bZ-lG8" secondAttribute="trailing" constant="20" id="cF0-DO-e1x"/>
                             <constraint firstItem="FtZ-71-uQs" firstAttribute="top" secondItem="MIb-Wx-IEd" secondAttribute="bottom" constant="25" id="eln-lT-ru1"/>
                             <constraint firstItem="MIb-Wx-IEd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="115" id="fOS-xK-uHx"/>
                             <constraint firstItem="hek-iP-ewY" firstAttribute="top" secondItem="FtZ-71-uQs" secondAttribute="bottom" constant="20" id="i1Z-ul-OT3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="uVy-Lx-Yjw" secondAttribute="trailing" symbolic="YES" id="lYL-3B-bkL"/>
                             <constraint firstItem="Nev-eY-JCK" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ltk-rh-ufo"/>
                             <constraint firstAttribute="trailing" secondItem="Nev-eY-JCK" secondAttribute="trailing" id="mxX-6X-7m1"/>
                             <constraint firstItem="gOZ-bZ-lG8" firstAttribute="top" secondItem="hek-iP-ewY" secondAttribute="bottom" constant="20" id="t1s-Ej-qSE"/>
